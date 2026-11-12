@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.pic
+venv/
+.venv/
+.env*
+tests/
+docker/
+docker-compose*.yaml
+docker-compose*.yml

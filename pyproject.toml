@@ -1,0 +1,25 @@
+[project]
+name = "rede-social-profissional"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "bcrypt",
+    "neo4j-driver",
+    "pymongo",
+    "pydantic",
+    "python-dotenv>=1.2.4",
+    "redis",
+    "streamlit",
+    "streamlit-cookies-controller",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-mock",
+    "playwright",
+    "pytest-playwright",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
